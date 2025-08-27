@@ -1,9 +1,11 @@
-package org.example.cloudeagle.oauth;
+package org.example.cloudeagle.oauth.providers;
 
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
 import org.example.cloudeagle.dtos.TokenRequestDto;
 import org.example.cloudeagle.dtos.TokenResponseDto;
+import org.example.cloudeagle.oauth.OAuthAdapter;
+import org.example.cloudeagle.oauth.OAuthApi;
 import retrofit2.Call;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
