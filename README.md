@@ -74,7 +74,7 @@ cloudeagle/
 3. Run `Main.java`.
 4. Open the Dropbox authorization URL in browser.
 5. Log in as **Team Admin** and authorize the app.
-6. Get the code and input it in your Java terminal.
+6. Copy the code parameter from the redirected uri and input it in your Java terminal.
 7. Token will be exchanged automatically via PKCE.
 8. DropboxClient will fetch and print team info.
 
